@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(/icons/bg.jpg);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;   
+}
+
+.logo {
+    color: white;
+    margin: auto;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    font-family: monst;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-wrap {
+    margin-left: 100px;
+}
+
+.name {
+    font-family: ;
+    font-size: 100px;
+    font-weight: 500;
+    color: white;
+}
+
+.contact-btn:hover {
+    border: 5px solid bisque;
+}
+
+.info {
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 7px;
+}
+
+.hero button {
+    font-size: 30px;
+    color: white;
+    height: 80px;
+    width: 350px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.description {
+    background-color:  #1a2028;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 40px;
+}
+
+
+
+.des-left {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100%;
+}
+
+.des-txt {
+    color:  #384557;
+    font-size: 100px;
+}
+
+.frame {
+    display: flex;
+    background-image: url(/icons/rishi.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    border: 10px solid grey;
+    border-radius: 20%;
+}
+
+
+.des-right {
+    padding: 30px;
+}
+
+.box {
+    display: flex;
+    height: 100px;
+    aspect-ratio: 1;
+    box-sizing: border-box;
+}
+
+.skl1-grd, .skl2-grd {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.skl-txt {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.projects {
+    background-color: bisque;
+    padding: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.project-title {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.project-container {
+    display: flex;
+    height: 450px;
+    aspect-ratio: 1;
+    gap: 10px;
+}
+
+.box2 {
+    background-color: rgb(12, 159, 159);
+    height: 450px;
+    width: 320px;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.dspl {
+    display: flex;
+    height: 260px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.code-preview {
+    height: 35px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#code:hover {
+    background-color: #E17A47 ;
+}
+
+#preview:hover {
+    background-color: #EF3D59;
+}
+
+#code,#preview {
+    width: 50em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+}
+
+.bx-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-wrap: wrap;
+    padding: 10px;
+}
+
+.contact-me {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 30px;
+    justify-content: center;
+}
+
+/* .ct-left {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+} */
+
+
+.icon-container {
+    display: flex;
+    height: 30px;
+    width: 200px;
+    gap: 20px;
+    align-items: center;
+}
+
+.cnt-txt {
+    font-size: 80px;
+    list-style: none;
+}
+
+.underline {
+    height: 10px;
+    width: 200px;
+    background-color: green;
+}
+
+.icon {
+    margin-top: 80px;
+    display: flex;
+    height: 60px;
+    aspect-ratio: 1;
+    gap: 50px;
+}
+
+.icon:hover {
+    scale: 1.1;
+}
+
+.x {
+    height: 80px;
+}
+
+.gmail, .github, .linkedin, .whatsapp {
+    height: 70px;
+}
+
+/* #contact .ct-right {
+    width: 50vw;
+    height: 100%;
+    background-color: grey;
+} */
+
+.footer {
+    background-color: #EF3D59 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 10px;
+}
