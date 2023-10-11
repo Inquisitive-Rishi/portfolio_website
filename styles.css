@@ -36,8 +36,17 @@ a {
     text-decoration: none;
 }
 
+.head-link {
+    padding: 10px;
+}
+
+.head-link:hover {
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
 .hero {
-    font-family: monst;
     height: 100vh;
     padding: 30px;
     display: flex;
@@ -102,13 +111,13 @@ a {
 }
 
 .frame {
-    display: flex;
+    display: inline-block;
     background-image: url(/icons/rishi.jpg);
     background-size: cover;
     height: 300px;
     width: 200px;
-    border: 10px solid grey;
-    border-radius: 20%;
+    border: 3px solid white;
+    border-radius: 25%;
 }
 
 
